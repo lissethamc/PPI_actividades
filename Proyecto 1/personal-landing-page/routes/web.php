@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\PaginaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,6 +22,10 @@ Route::get('/index', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/contact/{fill_id?}',[PaginaController::class, 'fillForm']); {
+    //return view('about');
+}
+
 
 
 /*Route::get('/index/fill', function () {

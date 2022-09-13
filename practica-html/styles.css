@@ -1,0 +1,43 @@
+body{
+    background-color: #e5e4e2fa;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1{
+    color: #A09DC8;
+}
+
+h2{
+    color:#E8B9BF;
+}
+
+hr{
+    color: #99E9F2;
+}
+
+.mid-separator{
+    color: #FBEDD0;
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+    
+}
+
+img{
+    float:right;
+}
+
+.person{
+    justify-content: center;
+    align-items: center;
+    /*display: flex;*/
+}
+
+.person > img { 
+    float: right;
+}
+.person > description {
+    float: left;
+}

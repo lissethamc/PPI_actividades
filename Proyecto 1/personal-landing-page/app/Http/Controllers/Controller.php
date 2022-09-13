@@ -9,5 +9,15 @@ use Illuminate\Routing\Controller as BaseController;
 
 class Controller extends BaseController
 {
+    public function fillForm($fill_id = null){
+
+        if(!empty($fill_id)){
+            //retorna el formuario lleno
+            
+        }
+        else{
+            //retorna el formulario vacio
+        }
+    }
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
